@@ -1,15 +1,72 @@
-# 💫 About Me:
-🚀 Backend | 🤖 AI Enthusiast | ☁️ Cloud & DevOps |💡 Lifelong Learner<br><br>👨‍💻 Passionate about building reliable and scalable software with a focus on Backend, Cloud, and DevOps. Curious about AI, automation, and modern technologies, and always eager to learn and explore new ideas.<br><br>✨ Open to connecting, collaborating, and building impactful solutions.
+# Shivam Srivastava
 
+### Backend & Applied AI Engineer
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/shivam-0/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://medium.com/@shivam_srv) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/shivam__srv) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shivam.sriv.com@gmail.com) 
+I build reliable backend systems and practical AI products with Python. My work
+focuses on API design, data-intensive services, distributed messaging, and RAG
+systems that are secure, observable, and useful beyond a demo.
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=shiv-am0&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=shiv-am0&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=shiv-am0&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+I enjoy reasoning about the parts that make software dependable in production:
+failure modes, idempotency, authentication, data modeling, concurrency, and
+clear operational boundaries.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat-square&logo=vercel&logoColor=white)](https://shivam-srv.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivam-0/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shivam.sriv.com@gmail.com)
+
+## Selected projects
+
+### [CodeLens](https://github.com/shiv-am0/CodeLens) — AI-powered codebase intelligence
+
+A full-stack developer tool that analyzes public GitHub repositories and
+generates architecture documentation, API summaries, diagrams, and grounded
+Q&A through a RAG pipeline.
+
+- Built the API with **FastAPI**, async **SQLAlchemy**, **PostgreSQL**, and **pgvector**.
+- Supports hosted **OpenAI** models and local **Ollama** models behind one provider interface.
+- Designed an embeddings and retrieval pipeline for repository-aware conversations.
+- Added encrypted owner-managed API keys, rate limits, bounded analysis concurrency,
+  and fail-closed production configuration.
+- Runs as a containerized stack with **Next.js**, **Docker Compose**, and **Nginx**.
+
+### [ChatPulse](https://github.com/shiv-am0/chat-pulse) — distributed real-time chat backend
+
+A Django REST platform and Python CLI that separates message acceptance,
+durable processing, persistence, and real-time delivery.
+
+- Built authenticated APIs with **Django**, **Django REST Framework**, and JWT.
+- Used **Kafka** as the asynchronous message boundary, **PostgreSQL** for durable
+  storage, and **Redis** for caching and Pub/Sub delivery.
+- Implemented replay-aware message consumption, duplicate protection, cursor
+  pagination, token refresh, and Redis-to-database fallbacks.
+- Packaged a cross-platform terminal client with **Typer**, **Rich**, and **httpx**.
+- Added automated deployment, package publishing, and installer checks with
+  **GitHub Actions**.
+
+## Engineering toolkit
+
+| Area | Technologies and practices |
+| --- | --- |
+| Backend | Python, Django, Django REST Framework, FastAPI, REST APIs, Pydantic, SQLAlchemy |
+| Applied AI | OpenAI API, RAG, embeddings, vector search, prompt design, local LLMs with Ollama |
+| Data & messaging | PostgreSQL, pgvector, Redis, Kafka, data modeling, transactions, idempotency |
+| Infrastructure | Docker, Docker Compose, Nginx, GitHub Actions, AWS, Linux, Git |
+| Reliability & security | Testing, rate limiting, authentication, secret encryption, failure-path design |
+
+## How I approach engineering
+
+- Start with the simplest architecture that satisfies the requirements.
+- Treat retries, partial failure, duplicate delivery, and dependency outages as
+  normal operating conditions—not edge cases.
+- Keep API, business logic, and persistence boundaries explicit and testable.
+- Evaluate AI systems as software systems: retrieval quality, hallucination risk,
+  latency, cost, security, and graceful degradation all matter.
+
+## Currently focused on
+
+- Production-oriented RAG and LLM-backed applications
+- Scalable Python APIs and asynchronous processing
+- PostgreSQL performance, distributed-system reliability, and cloud deployment
+
+I am open to backend and applied AI engineering opportunities where I can build
+useful systems, learn deeply, and contribute to strong engineering teams.
