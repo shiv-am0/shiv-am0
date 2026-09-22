@@ -10,8 +10,8 @@ I enjoy reasoning about the parts that make software dependable in production:
 failure modes, idempotency, authentication, data modeling, concurrency, and
 clear operational boundaries.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat-square&logo=vercel&logoColor=white)](https://shivam-srv.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivam-0/)
+[![X](https://img.shields.io/badge/X-@shivam__srv-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/shivam__srv)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shivam.sriv.com@gmail.com)
 
 ## Selected projects
