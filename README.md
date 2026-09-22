@@ -43,6 +43,17 @@ durable processing, persistence, and real-time delivery.
 - Added automated deployment, package publishing, and installer checks with
   **GitHub Actions**.
 
+### [StockFlow](https://github.com/shiv-am0/StockFlow) — inventory and order management
+
+A full-stack business application built around a layered **FastAPI** backend,
+with products, customers, orders, stock validation, search, and pagination.
+
+- Uses **SQLAlchemy**, **Pydantic**, **PostgreSQL**, and **Alembic** for typed data
+  access and schema migrations.
+- Includes soft deletion, low-stock alerts, automated tests, health checks, and
+  structured logging.
+- Ships with a React dashboard and a reproducible **Docker Compose** environment.
+
 ## Engineering toolkit
 
 | Area | Technologies and practices |
